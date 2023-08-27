@@ -1,0 +1,151 @@
+/* Content for likes page */
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+hr {
+    width: 80%;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+/* content */
+@media screen and (min-width:600px) {
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 40%;
+        border-radius: 20px;
+        margin: 10px;
+        margin-bottom: 5px;
+        outline-style: solid;
+        outline-color: black;
+
+    }
+
+    .card img {
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+    }
+
+    .container-like {
+        border-radius: 20px 20px 0 0;
+        background-color: #77DD77;
+        color: #000000;
+        padding: 2px 16px;
+    }
+
+    .container-ick {
+        border-radius: 20px 20px 0 0;
+        background-color: #FF6961;
+        color: #000000;
+        padding: 2px 16px;
+    }
+
+    .container-like h4 {
+        margin-top: 5px;
+        padding: 5px;
+        text-decoration: underline;
+    }
+
+    .container-like p {
+        padding-left: 5px;
+    }
+
+    .container-ick h4 {
+        margin-top: 5px;
+        padding: 5px;
+        text-decoration: underline;
+    }
+
+    .container-ick p {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .section {
+        position: relative;
+        align-items: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        margin: 10px;
+        outline-style: solid;
+        outline-color: black;
+
+    }
+
+    .card img {
+        border-radius: 0 0 20px 20px;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .container-like {
+        border-radius: 20px 20px 0 0;
+        background-color: #77DD77;
+        color: #000000;
+        padding: 2px 16px;
+    }
+
+    .container-ick {
+        border-radius: 20px 20px 0 0;
+        background-color: #FF6961;
+        color: #000000;
+        padding: 2px 16px;
+    }
+
+    .container-like h4 {
+        margin-top: 5px;
+        padding: 5px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .container-like p {
+        padding-left: 5px;
+        text-align: center;
+    }
+
+    .container-ick h4 {
+        margin-top: 5px;
+        padding: 5px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .container-ick p {
+        padding-left: 5px;
+        text-align: center;
+    }
+}
+

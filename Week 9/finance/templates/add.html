@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Cash
+{% endblock %}
+
+{% block main %}
+    <h1>Add Cash</h1>
+    <form action = "{{ url_for('add_cash') }}" method = "post">
+        <hr>
+        <input autocomplete="off" autofocus name="more_cash" placeholder="Add amount" type = "text">
+        <hr>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,84 @@
+/* CSS for about page */
+
+@media screen and (min-width:600px) {
+    .rectangle {
+        width: auto;
+        height: auto;
+        background: #470047;
+        border-radius: 15px 50px;
+        padding: 20px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    .imgcircle {
+        float: left;
+        border-radius: 35%;
+        width: 30%;
+        height: auto;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+        border-style: solid;
+        border-color: #fff;
+
+    }
+
+    #title {
+        color: #fff;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        color: #fff;
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .rectangle {
+        width: auto;
+        height: auto;
+        background: #470047;
+        border-radius: 15px 50px;
+        padding: 20px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .imgcircle {
+        display: block;
+        border-radius: 35%;
+        width: 40%;
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-right: auto;
+        border-style: solid;
+        border-color: #fff;
+
+    }
+
+    #title {
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .content {
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+}

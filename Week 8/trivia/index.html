@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Food Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            //Run once DOM is loaded
+            document.addEventListener('DOMContentLoaded', function() {
+
+                //Button turns green when answer is correct
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'MediumSeaGreen';
+                    document.querySelector('#multi').innerHTML = 'Correct!';
+                });
+
+                //Button turns red when answer is incorrect
+                let incorrect = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrect.length; i++) {
+                    incorrect[i].addEventListener('click', function() {
+                        incorrect[i].style.backgroundColor=  'Salmon';
+                        document.querySelector('#multi').innerHTML = 'Incorrect!';
+                    });
+                }
+
+                document.querySelector('#check').addEventListener('click', function() {
+                   let input = document.querySelector('input');
+                   if(input.value == 'chili peppers'){
+                       input.style.backgroundColor = 'MediumSeaGreen';
+                       document.querySelector('#free').innerHTML = 'Correct!';
+                   } else {
+                       input.style.backgroundColor = 'Salmon';
+                       document.querySelector('#free').innerHTML = 'Incorrect';
+                   }
+
+                });
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Food Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Question 1: Which one of the following apple types is green?</h3>
+
+                <button class="incorrect">Golden Delicious</button>
+                <button class="incorrect">Gala</button>
+                <button class="incorrect">Fuji</button>
+                <button class="correct">Granny Smith</button>
+
+                <p id="multi"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Question 1: For what food is the Scoville scale used to measure spiciness?</h3>
+
+                <input autocomplete="off" autofocus placeholder="Your answer" type="text"> </input>
+                <button id = "check" > Answer </button>
+
+                <p id = "free" > </p>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

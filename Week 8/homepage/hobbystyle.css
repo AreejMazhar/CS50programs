@@ -1,0 +1,374 @@
+/* css code for hobbies page */
+
+#title {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+hr {
+    width: 80%;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (min-width:600px) {
+    .bg1 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/art bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg2 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/crafts bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg3 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/gaming bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg4 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/reading bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg5 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/writing bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg6 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/baking bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg7 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/crochet bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg8 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/quilling bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .subject {
+        font-size: 55px;
+        color: #FA9E64;
+        font-weight: bold;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        margin-left: 20px;
+    }
+
+    .content-box {
+        width: auto;
+        height: auto;
+        background-color: #FA9E64;
+        border-radius: 65px;
+        margin: 15px;
+        padding: 25px;
+        outline-color: black;
+        outline-style: dashed;
+    }
+
+    .content {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .content a {
+        text-decoration: none;
+        color: #7d0e67;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .bg1 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/art bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg2 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/crafts bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg3 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/gaming bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg4 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/reading bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg5 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/writing bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg6 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/baking bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg7 {
+        position: relative;
+
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/crochet bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .bg8 {
+        position: relative;
+        align-items: center;
+        width: auto;
+        height: auto;
+        border-radius: 65px;
+        background: linear-gradient(rgba(171, 171, 171,.5), rgba(171, 171, 171,.5)), url("Images/hobbies/quilling bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        outline-color: black;
+        outline-style: solid;
+    }
+
+    .subject {
+        font-size: 55px;
+        color: #FA9E64;
+        font-weight: bold;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        text-align: center;
+    }
+
+    .content-box {
+        width: auto;
+        height: auto;
+        background-color: #FA9E64;
+        border-radius: 65px;
+        margin: 15px;
+        padding: 25px;
+        outline-color: black;
+        outline-style: dashed;
+    }
+
+    .content {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .content a {
+        text-decoration: none;
+        color: #7d0e67;
+    }
+
+}
+

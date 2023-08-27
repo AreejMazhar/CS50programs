@@ -1,0 +1,21 @@
+There I will credit all the websites and resources for his problem set
+
+
+Navigation bar:
+https://dev.to/javascriptacademy/responsive-navigation-bar-with-mobile-menu-using-html-css-2hpd
+https://www.youtube.com/watch?v=OjQP7rPwJyE
+
+Carousel:
+https://getbootstrap.com/docs/5.2/components/carousel/
+https://blog.hubspot.com/website/bootstrap-carousel-css
+
+
+Sectioning:
+https://blog.hubspot.com/website/section-in-html
+
+Footer:
+https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14
+https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/
+
+Gallery:
+https://www.w3schools.com/css/css_image_gallery.asp
