@@ -1,0 +1,5 @@
+Certain genres would have certain values of energy, valence and danceability. For example, sadder songs would have a lower valence, energy and danceability while Pop or rock/metal songs would have much higher values.
+Artisits also usually stick to one or two genres, so taking that into consideration, a person's 'audio aura' could be based on what artists they listen to, and what genres the artists usually follow.
+
+Though of course, just this would not always give an accurate reprensentation of the listener. The top 100 songs could be of personal favourite interest, a mix of many artists and genres and overall give an inaccurate assumption.
+Instead, maybe the 'Audio Aura' should be based on the Top songs from a certain genre or genres that the listener most often listens from. Genres usually have specific energy, valence and danceability and might provide a more accurate result.
